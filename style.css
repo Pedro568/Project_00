@@ -5,6 +5,7 @@
 html {
   background-color: #fafafa;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 nav,
@@ -29,6 +30,7 @@ h2 {
 h3 {
   font-size: 1.4 * 18px;
   font-family: "Martel", serif;
+  text-transform: uppercase;
 }
 
 h1,
@@ -51,7 +53,12 @@ hr .down {
 
 a {
   text-decoration: none;
-  color: #24292e;
+  color: #0074c4;
+}
+a:hover {
+  background-color: #0098ff;
+  border-radius: 20em;
+  
 }
 /*################## Nav-bar #######################*/
 .nav-bar {
@@ -111,11 +118,13 @@ figcaption {
 
 .Side-bar {
   overflow: hidden;
+  margin: 24px;
 }
 
 .main {
   width: 60%;
   float: left;
+  margin-right: 3px;
 }
 
 .paragraphFooter {
