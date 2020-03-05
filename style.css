@@ -1,5 +1,7 @@
 /*################## Deafult #######################*/
-
+* {
+  box-sizing: border-box;
+}
 html {
   background-color: #fafafa;
   font-size: 18px;
@@ -17,13 +19,16 @@ body {
 }
 h1 {
   font-size: 2.25 * 18px;
+  font-family: "Raleway";
+  font-weight: bolder;
 }
 h2 {
   font-size: 1.75 * 18px;
+  font-family: "Vollkorn", serif;
 }
-
 h3 {
   font-size: 1.4 * 18px;
+  font-family: "Martel", serif;
 }
 
 h1,
@@ -32,6 +37,11 @@ h3,
 p {
   color: #24292e;
 }
+
+p {
+  font-family: "Raleway";
+}
+
 hr .down {
   margin-top: 45px;
   border: 0.5px solid #808080;
@@ -72,26 +82,42 @@ ul li {
 /*################## Images #######################*/
 
 .helado {
-  height: 400px;
-  width: 350px;
+  height: 550px;
+  width: 550px;
 }
 
 .dolar {
-  height: 300px;
+  border: 1px solid black;
+  height: 200px;
   width: 350px;
 }
 
 .apple {
-  height: 300px;
-  width: 450px;
+  border: 1px solid black;
+  height: 150px;
+  width: 250px;
+  border-radius: 1px solid black;
 }
 
-/*################## footer #######################*/
-
-/*################## aside #######################*/
+/*################## Paragraph #######################*/
 
 figcaption {
   margin-bottom: 30px;
   color: #808080;
   font-size: 0.75 * 18px;
+}
+
+/*################## Floats #######################*/
+
+.Side-bar {
+  overflow: hidden;
+}
+
+.main {
+  width: 60%;
+  float: left;
+}
+
+.paragraphFooter {
+  clear: both;
 }
